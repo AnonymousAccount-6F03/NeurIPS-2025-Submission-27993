@@ -4,6 +4,8 @@ We demonstrate the performance of reinforcement learning-based intelligent navig
 
 In the visualization results, the left side displays the target image, the center shows the first-person perspective observation from the navigation agent, and the right side presents a top-down view of the scene layout, where gray areas indicate traversable regions, arrows denote the agent's position and orientation, and the navigation trajectory is illustrated by blue curves.
 
+The visualization results below demonstrate that our method, through the introduction of distance constraints and similarity constraints, effectively enhances the navigation performance of the agent, resulting in higher SPL values overall. Benefiting from the distance constraints, our agent exhibits significantly fewer collisions with obstacles and environmental elements. Additionally, owing to the similarity constraints, our agent can more efficiently reach the destination once the target appears within its field of view. These findings substantiate the efficacy of our approach, with the visualization outcomes aligning consistently with the quantitative results presented in the paper.
+
 ## DiscNav (Ours)
 
 <p>On Gibson</p>
@@ -54,8 +56,6 @@ In the visualization results, the left side displays the target image, the cente
 <video src="https://github.com/AnonymousAccount-6F03/ICML-Visualizations-16380/assets/2e8a19ae-86d3-476f-bd6d-3dc9649691ae"></video>
 <video src="https://github.com/AnonymousAccount-6F03/ICML-Visualizations-16380/assets/4f47d2e4-1c8a-464d-b92f-dcfdfd1f9854"></video>
 <video src="https://github.com/AnonymousAccount-6F03/ICML-Visualizations-16380/assets/5c888334-063c-4a33-ac3b-8dcfb3a6d101"></video>
-
-The visualization results demonstrate that our method, through the introduction of distance constraints and similarity constraints, effectively enhances the navigation performance of the agent, resulting in higher SPL values overall. Benefiting from the distance constraints, our agent exhibits significantly fewer collisions with obstacles and environmental elements. Additionally, owing to the similarity constraints, our agent can more efficiently reach the destination once the target appears within its field of view. These findings substantiate the efficacy of our approach, with the visualization outcomes aligning consistently with the quantitative results presented in the paper.
 
 ## Failure Cases
 
