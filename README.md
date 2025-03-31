@@ -6,6 +6,8 @@ In the visualization results, the left side displays the target image, the cente
 
 The visualization results below demonstrate that our method, through the introduction of distance constraints and similarity constraints, effectively enhances the navigation performance of the agent, resulting in higher SPL values overall. Benefiting from the distance constraints, our agent exhibits significantly fewer collisions with obstacles and environmental elements. Additionally, owing to the similarity constraints, our agent can more efficiently reach the destination once the target appears within its field of view. These findings substantiate the efficacy of our approach, with the visualization outcomes aligning consistently with the quantitative results presented in the paper.
 
+(Please refresh if videos won't load or play.)
+
 ## DiscNav (Ours)
 
 <p>On Gibson</p>
