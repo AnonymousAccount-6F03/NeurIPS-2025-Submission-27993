@@ -1,6 +1,6 @@
-# Visualizations for ICML-Submission-16380
+# Visualizations for NeurIPS-Submission-27993
 
-We demonstrate the performance of our RL-based navigation algorithm (DiscNav) in various environments on this page. Through visual analysis of navigation trajectories, we can more intuitively understand the effectiveness of the introduced distance and similarity constraints, and provide a basis for further improvement.
+We demonstrate the performance of our RL-based navigation algorithm (DiscoNav) in various environments on this page. Through visual analysis of navigation trajectories, we can more intuitively understand the effectiveness of the introduced distance and similarity constraints, and provide a basis for further improvement.
 
 In the visualization results, the left side displays the target image, the center shows the first-person perspective observation from the navigation agent, and the right side presents a top-down view of the scene layout, where gray areas indicate traversable regions, arrows denote the agent's position and orientation, and the navigation trajectory is illustrated by blue curves.
 
@@ -8,7 +8,7 @@ The visualization results below demonstrate that our method, through the introdu
 
 (Please refresh if videos won't load or play.)
 
-## DiscNav (Ours)
+## DiscoNav (Ours)
 
 <p>On Gibson</p>
 <video src="https://github.com/AnonymousAccount-6F03/ICML-Visualizations-16380/assets/d91dad38-5182-4cbc-a71c-d4b0ec847245"></video>
